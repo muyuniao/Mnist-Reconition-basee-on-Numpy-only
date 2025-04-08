@@ -1,15 +1,17 @@
 # MNIST手写数字识别 - 基于纯NumPy实现
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)                                                                                                                                                                     
 本项目通过仅使用NumPy库实现了一个简单的两层神经网络，用于MNIST手写数字识别。代码完全从零开始编写，旨在帮助深入理解神经网络的前向传播、反向传播、激活函数和损失函数的核心原理。
 
 ## 📁 文件结构
 
-├── Activation_Function.py # 激活函数（ReLU/Sigmoid/Softmax）及其导数
-├── Loss_Function.py # 损失函数（交叉熵误差、均方误差）
-├── Gradient_Calculating.py # 数值梯度计算工具
-├── MNIST-Training.ipynb # 神经网络训练流程（Jupyter Notebook）
+```
+├── Activation_Function.py      # 激活函数（ReLU/Sigmoid/Softmax）及其导数
+├── Loss_Function.py            # 损失函数（交叉熵误差、均方误差）
+├── Gradient_Calculating.py     # 数值梯度计算工具
+├── MNIST-Training.ipynb        # 神经网络训练流程（Jupyter Notebook）
 └── README.md
+```
 
 ## 🛠️ 依赖项
 - Python 3.8+
